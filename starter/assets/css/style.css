@@ -33,6 +33,7 @@ body {
     font-size: 18px;
 }
 
+/* added all instructions except for list-style-type to get the menu options to sit in the right place in the header. */
 .header div ul {
     list-style-type: none;
     text-align: right;
@@ -51,6 +52,7 @@ a {
     text-decoration: none;
 }
 
+/* Changed font size to more closely resemble the screenshot. */
 p {
     font-size: 15px;
 }
@@ -64,18 +66,20 @@ p {
     background-position: center;
 }
 
+/* changed the width to make these images smaller - search engine optimisation and social media marketing. */
 .float-left {
     float: left;
     margin-right: 25px;
     width: 40%;
 }
-
+/* changed the width to make this image smaller - online reputation management. */
 .float-right {
     float: right;
     margin-left: 25px;
     width: 40%;
 }
 
+/* adjusted width and added margins to get the right spacing between elements. */
 .content {
     width: 74%;
     display: inline-block;
@@ -84,6 +88,7 @@ p {
     left: 2%;
 }
 
+/* adjusted margins to get spacing around element right. */
 .benefits {
     margin-right: 2%;
     margin-bottom: 25px;
@@ -144,6 +149,7 @@ p {
     max-width: 150px;
 }
 
+/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
 .search-engine-optimization {
     margin-bottom: 25px;
     padding: 40px;
@@ -153,6 +159,7 @@ p {
     color: #ffffff;
 }
 
+/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
 .online-reputation-management {
     margin-bottom: 25px;
     padding: 40px;
@@ -162,6 +169,7 @@ p {
     color: #ffffff;
 }
 
+/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
 .social-media-marketing {
     margin-bottom: 25px;
     padding: 40px;
@@ -171,16 +179,19 @@ p {
     color: #ffffff;
 }
 
+/* adjusted size parameters so the image retains its aspect ratio. */
 .search-engine-optimization img {
     max-width: 300px;
     max-height: 200px;
 }
 
+/* adjusted size parameters so the image retains its aspect ratio. */
 .online-reputation-management img {
     max-width: 300px;
     max-height: 200px;
 }
 
+/* adjusted size parameters so the image retains its aspect ratio. */
 .social-media-marketing img {
     max-width: 300px;
     max-height: 200px;
@@ -201,6 +212,7 @@ p {
     font-size: 36px;
 }
 
+/* set footer to not display. */
 .footer {
     display: none;
     padding: 30px;
@@ -213,6 +225,7 @@ p {
     font-size: 20px;
 }
 
+/* added id for the h2 Search Engine Optimization (first blue box on left) so it appears in the correct position above the other text in the same box. */
 #seo-text {
     position: relative;
     top: 0;
