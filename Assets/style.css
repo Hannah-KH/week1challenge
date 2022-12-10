@@ -49,14 +49,10 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Nav items - font colour. */
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/* Changed font size to more closely resemble the screenshot. */
-p {
-    font-size: 15px;
 }
 
 /* Updated image reference. */
@@ -68,6 +64,103 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Adjusted width and added margins to get spacing around element right. */
+.content {
+    width: 74%;
+    display: inline-block;
+    position: relative;
+    right: 2%;
+    left: 2%;
+}
+
+/* Consolidated code into one set for 3 classes (below). Adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Separate code consolidated above.
+.search-engine-optimization {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+ 
+.online-reputation-management {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+ 
+.social-media-marketing {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted size parameters so the images retain their aspect ratio. */
+.content img {
+    max-width: 325px;
+    max-height: 200px;
+}
+
+/* Consolidated this part of the code above.  
+.search-engine-optimization img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+adjusted size parameters so the image retains its aspect ratio. 
+.online-reputation-management img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+ adjusted size parameters so the image retains its aspect ratio. 
+.social-media-marketing img {
+    max-width: 300px;
+    max-height: 200px;
+}
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Consolidated this part of the code above.
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+*/
 
 /* Changed the width to make these images smaller - search engine optimisation and social media marketing. */
 .float-left {
@@ -82,13 +175,9 @@ p {
     width: 40%;
 }
 
-/* Adjusted width and added margins to get spacing around element right. */
-.content {
-    width: 74%;
-    display: inline-block;
-    position: relative;
-    right: 2%;
-    left: 2%;
+/* Changed font size to more closely resemble the screenshot. */
+p {
+    font-size: 15px;
 }
 
 /* Adjusted margins to get spacing around element right. */
@@ -170,96 +259,6 @@ p {
     max-width: 150px;
 }
 
-
-/* Consolidated code into one set for 3 classes (below). Adjusted margin, padding and height to get element the right size with correct spacing between elements. */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 25px;
-    padding: 40px;
-    height: 280px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Separate code consolidated above.
-.search-engine-optimization {
-    margin-bottom: 25px;
-    padding: 40px;
-    height: 280px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
- 
-.online-reputation-management {
-    margin-bottom: 25px;
-    padding: 40px;
-    height: 280px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
- 
-.social-media-marketing {
-    margin-bottom: 25px;
-    padding: 40px;
-    height: 280px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-/* Consolidated code into one set for 3 classes (below). Adjusted size parameters so the images retain their aspect ratio. */
-.content img {
-    max-width: 325px;
-    max-height: 200px;
-}
-
-/* Consolidated this part of the code above.  
-.search-engine-optimization img {
-    max-width: 300px;
-    max-height: 200px;
-}
-
-adjusted size parameters so the image retains its aspect ratio. 
-.online-reputation-management img {
-    max-width: 300px;
-    max-height: 200px;
-}
-
- adjusted size parameters so the image retains its aspect ratio. 
-.social-media-marketing img {
-    max-width: 300px;
-    max-height: 200px;
-}
-*/
-
-/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot. */
-h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-/* Consolidated this part of the code above.
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-*/
-
 /* set footer to not display. */
 .footer {
     display: none;
@@ -271,10 +270,4 @@ h2 {
 
 .footer h2 {
     font-size: 20px;
-}
-
-/* added id for the h2 Search Engine Optimization (first blue box on left) so it appears in the correct position above the other text in the same box. */
-#seo-text {
-    position: relative;
-    top: 0;
 }
