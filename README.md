@@ -14,9 +14,7 @@ N/A
 
 If you inspect the page, you can view the comments in both the HTML and CSS files to see what I changed and why.
 
-```md
-    ![Screenshot of deployed page.](Assets/DeployedScreenshot.png)
-    ```
+![Screenshot of deployed page.](Assets/DeployedScreenshot.png)
 
 ## Credits
 
