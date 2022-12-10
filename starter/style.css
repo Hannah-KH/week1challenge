@@ -25,24 +25,26 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/* Updated to nav. */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-/* added all instructions except for list-style-type to get the menu options to sit in the right place in the header. */
-.header div ul {
+/* Updated tag to nav added instructions to get the menu options to sit in the right place in the header. */
+nav ul {
     list-style-type: none;
     text-align: right;
     width: 75%;
     position: absolute;
-    right: 25px;
+    right: 35px;
 }
 
-.header div ul li {
+/* Updated tag to nav. */
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -67,20 +69,20 @@ p {
     background-position: center;
 }
 
-/* changed the width to make these images smaller - search engine optimisation and social media marketing. */
+/* Changed the width to make these images smaller - search engine optimisation and social media marketing. */
 .float-left {
     float: left;
     margin-right: 25px;
     width: 40%;
 }
-/* changed the width to make this image smaller - online reputation management. */
+/* Changed the width to make this image smaller - online reputation management. */
 .float-right {
     float: right;
     margin-left: 25px;
     width: 40%;
 }
 
-/* adjusted width and added margins to get the right spacing between elements. */
+/* Adjusted width and added margins to get spacing around element right. */
 .content {
     width: 74%;
     display: inline-block;
@@ -89,7 +91,7 @@ p {
     left: 2%;
 }
 
-/* adjusted margins to get spacing around element right. */
+/* Adjusted margins to get spacing around element right. */
 .benefits {
     margin-right: 2%;
     margin-bottom: 25px;
@@ -102,6 +104,13 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated code into one set for 3 classes (below). */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Separate code consolidated above. 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,7 +125,16 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
+/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot.  */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Separate code consolidated above.  
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -131,7 +149,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+/* Don't think this can be consolidated. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -150,7 +170,18 @@ p {
     max-width: 150px;
 }
 
-/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+
+/* Consolidated code into one set for 3 classes (below). Adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Separate code consolidated above.
 .search-engine-optimization {
     margin-bottom: 25px;
     padding: 40px;
@@ -159,8 +190,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+ 
 .online-reputation-management {
     margin-bottom: 25px;
     padding: 40px;
@@ -169,8 +199,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/* adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+ 
 .social-media-marketing {
     margin-bottom: 25px;
     padding: 40px;
@@ -179,24 +208,40 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-/* adjusted size parameters so the image retains its aspect ratio. */
+/* Consolidated code into one set for 3 classes (below). Adjusted size parameters so the images retain their aspect ratio. */
+.content img {
+    max-width: 325px;
+    max-height: 200px;
+}
+
+/* Consolidated this part of the code above.  
 .search-engine-optimization img {
     max-width: 300px;
     max-height: 200px;
 }
 
-/* adjusted size parameters so the image retains its aspect ratio. */
+adjusted size parameters so the image retains its aspect ratio. 
 .online-reputation-management img {
     max-width: 300px;
     max-height: 200px;
 }
 
-/* adjusted size parameters so the image retains its aspect ratio. */
+ adjusted size parameters so the image retains its aspect ratio. 
 .social-media-marketing img {
     max-width: 300px;
     max-height: 200px;
 }
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Consolidated this part of the code above.
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -212,6 +257,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+*/
 
 /* set footer to not display. */
 .footer {
